@@ -8,7 +8,7 @@ def getTabs(port, domain='localhost'):
     tabs = json.loads(content)
     return tabs
 
-class ChromeDebugger(WebSocketClient):
+class WebkitRemoteDebugger(WebSocketClient):
     def __init__(self, webSocketDebuggerUrl, onload=None):
         WebSocketClient.__init__(self, webSocketDebuggerUrl)
 
