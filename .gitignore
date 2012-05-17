@@ -1,0 +1,6 @@
+*.pyc
+*.swp
+
+webkit_remote_debugger_env/
+virtualenv.py
+*.egg-info/
